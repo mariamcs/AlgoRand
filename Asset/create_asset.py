@@ -1,3 +1,6 @@
+# this code creates asset for a wallet
+# each asset has a manger, freezer, clawback account(take this asset from any other account) 
+# and a reserve account (account that holds reserves for this asset)
 
 from algosdk import account
 from algosdk.future import transaction
@@ -18,7 +21,7 @@ first_valid_round = 1000
 last_valid_round = 2000
 genesis_hash = "SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI="
 
-total = 100  # how many of this asset there will be
+total = 10  # how many of this asset there will be
 assetname = "assetname"
 unitname = "unitname"
 url = "website"
