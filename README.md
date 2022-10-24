@@ -1,2 +1,2 @@
 # AlgoRand
-using Algo to create smart contract 
+using Algo to create a simple Supply Chain Finance 
